@@ -10,7 +10,7 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  background(44,163,63)
+  background(44,163,63);
   img = loadImage("duk.jpg")
   imag = loadImage("Lemonade_stand.jpg")
   im = loadImage("angyduk.jpeg")
