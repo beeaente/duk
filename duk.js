@@ -8,9 +8,9 @@
  //*grapes and gets angry when he finds out there aren't any grapes.
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight)
 
-  background(44,163,63);
+  background(44,163,63)
   img = loadImage("duk.jpg")
   imag = loadImage("Lemonade_stand.jpg")
   im = loadImage("angyduk.jpeg")
@@ -24,7 +24,7 @@ function setup() {
 function draw() {
   
 //display  
-  clear()
+  background(44,163,63)
   image(img,mouseX,mouseY)  
   image(imag,900,300)
   imag.resize(500,550)
